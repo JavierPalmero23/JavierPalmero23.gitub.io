@@ -5,6 +5,10 @@ html{
 a{
   outline: none;
   text-decoration: none;
+  color: white;
+  text-shadow: 0 0 20px black;
+  font-family: sans-serif;
+  font-style:bold;
 }
 .github{
   width: 80%;
@@ -14,7 +18,7 @@ a{
   vertical-align: middle;
   line-height: 30vh;
   text-anchor: middle;
-  font-size: 15vh;
+  font-size: 15vmin;
   background-color: black;
   background-image: url("media/GitHubBanner.png");
   border-radius: 25px;
@@ -27,7 +31,7 @@ a{
   vertical-align: middle;
   line-height: 30vh;
   text-anchor: middle;
-  font-size: 15vh;
+  font-size: 15vmin;
   background-color: black;
   background-image: url("media/LinkedInBanner.png");
   background-size: 100%;
@@ -41,7 +45,7 @@ a{
   vertical-align: middle;
   line-height: 30vh;
   text-anchor: middle;
-  font-size: 15vh;
+  font-size: 15vmin;
   background-color: black;
   background-image: url("media/FacebookBanner.png");
   background-size: 100%;
@@ -54,10 +58,9 @@ a{
   vertical-align: top;
   vertical-align: middle;
   text-align: center;
-  line-height: 40vh;
   text-anchor: middle;
   writing-mode: vertical-lr;
-  font-size: 15vh;
+  font-size: 15vmin;
   text-orientation:sideways-right;
   background-color: black;
   background-image: url("media/InstagramBanner.png");
