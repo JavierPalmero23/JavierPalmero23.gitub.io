@@ -1,34 +1,65 @@
 html{
   background-color: black;
-  font-family: 'Times New Roman', Times, serif;
+  
+}
+a{
+  outline: none;
+  text-decoration: none;
 }
 .github{
-  width: 95%;
+  width: 80%;
   height:30vh;
+  float: left;
   text-align: center;
+  vertical-align: middle;
+  line-height: 30vh;
   text-anchor: middle;
+  font-size: 15vh;
   background-color: black;
   background-image: url("media/GitHubBanner.png");
-  background-size: 100%;
   border-radius: 25px;
 }
 .linkedin{
-  width: 95%;
+  width: 80%;
   height: 30vh;
+  float: left;
   text-align: center;
+  vertical-align: middle;
+  line-height: 30vh;
   text-anchor: middle;
+  font-size: 15vh;
   background-color: black;
   background-image: url("media/LinkedInBanner.png");
   background-size: 100%;
   border-radius: 25px;
 }
 .facebook{
-  width: 95%;
+  width: 80%;
   height: 30vh;
+  float: left;
   text-align: center;
+  vertical-align: middle;
+  line-height: 30vh;
   text-anchor: middle;
+  font-size: 15vh;
   background-color: black;
   background-image: url("media/FacebookBanner.png");
   background-size: 100%;
+  border-radius: 25px;
+}
+.instagram{
+  width: 20%;
+  height: 90vh;
+  float: right;
+  vertical-align: top;
+  vertical-align: middle;
+  text-align: center;
+  line-height: 40vh;
+  text-anchor: middle;
+  writing-mode: vertical-lr;
+  font-size: 15vh;
+  text-orientation:sideways-right;
+  background-color: black;
+  background-image: url("media/InstagramBanner.png");
   border-radius: 25px;
 }
