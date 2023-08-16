@@ -1,6 +1,7 @@
 html{
   background-color: black;
-  
+  background-image: url("media/Background.jpg");
+  background-size: cover;
 }
 a{
   outline: none;
@@ -12,13 +13,15 @@ a{
 }
 div{
   border-style:solid;
+  filter: blur(2px);
 }
 div:hover{
   background-size: cover;
+  filter: blur(0px);
 
 }
 .github{
-  width: 79%;
+  width: 78%;
   height:30vh;
   float: left;
   text-align: center;
@@ -34,7 +37,7 @@ div:hover{
   border-radius: 25px;
 }
 .linkedin{
-  width: 79%;
+  width: 78%;
   height: 30vh;
   float: left;
   text-align: center;
@@ -50,7 +53,7 @@ div:hover{
   border-radius: 25px;
 }
 .facebook{
-  width: 79%;
+  width: 78%;
   height: 30vh;
   float: left;
   text-align: center;
@@ -66,8 +69,8 @@ div:hover{
   border-radius: 25px;
 }
 .instagram{
-  width: 19%;
-  height: 94vh;
+  width: 18%;
+  height: 75vh;
   float: right;
   vertical-align: top;
   vertical-align: middle;
@@ -78,6 +81,24 @@ div:hover{
   text-orientation:sideways-right;
   background-color: black;
   background-image: url("media/InstagramBanner.png");
+  background-size: 600% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 25px;
+}
+.of{
+  width: 18%;
+  height: 16vh;
+  float: right;
+  vertical-align: top;
+  vertical-align: middle;
+  text-align: center;
+  text-anchor: middle;
+  writing-mode: vertical-lr;
+  font-size: 15vmin;
+  text-orientation:sideways-right;
+  background-color: black;
+  background-image: url("media/of.png");
   background-size: 600%;
   background-position: center;
   background-repeat: no-repeat;
