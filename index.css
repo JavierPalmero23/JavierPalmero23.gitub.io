@@ -1,6 +1,6 @@
 html{
   background-color: black;
-  background-image: url("media/Background.jpg");
+  background-image: url("media/BcTech.gif");
   background-size: 100% 200%;
 }
 a{
@@ -18,7 +18,7 @@ div{
   font-size: 9vw;
 }
 div:hover{
-  background-size: 200%;
+  background-size: 300%;
   border-color: gold;
   border-style: ridge;
 }
@@ -101,7 +101,7 @@ div:hover{
   line-height: 30vh;
   vertical-align: center;
   background-color: black;
-  background-image: url("media/of.png");
+  background-image: url("media/TelegramBanner.png");
   background-position: center;
   background-repeat: no-repeat;
   border-radius: 25px;
