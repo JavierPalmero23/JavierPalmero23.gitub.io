@@ -1,108 +1,28 @@
 html{
   background-color: black;
-  /*background-image: url("media/BcTech.gif");
-  background-size: 100% 200%;*/
 }
-a{
-  outline: none;
+#terminal-body{
+  position: relative;
+}
+#link{
   text-decoration: none;
-  color: white;
-  text-shadow: 0 0 20px black;
-  font-family: sans-serif;
-  font-style:bold;
 }
-div{
+.link{
+  position: relative;
+  left: 30%; right: 30%;
+  text-align: center;
+  width: 40%;
+  padding: 1%;
+  border:1vh;
+  border-radius: 25px;
   border-style: inset;
-  border-color: gray;
-  background-size: 500%;
-  font-size: 9vw;
+  border-color: steelblue;
+  font-size: 5vh;
+  font-family: 'Times New Roman', Times, serif;
+  color: mintcream;
 }
-div:hover{
-  background-size: 300%;
-  border-color: gold;
-  border-style: ridge;
-}
-.github{
-  width: 48%;
-  height:30vh;
-  float: left;
-  text-align: center;
-  vertical-align: middle;
-  line-height: 30vh;
-  text-anchor: middle;
-  background-color: black;
-  background-image: url("media/GitHubBanner.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  border-radius: 25px;
-}
-.linkedin{
-  width: 48%;
-  height: 30vh;
-  float: left;
-  text-align: center;
-  vertical-align: middle;
-  line-height: 30vh;
-  text-anchor: middle;
-  background-color: black;
-  background-image: url("media/LinkedInBanner.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  border-radius: 25px;
-}
-.facebook{
-  width: 48%;
-  height: 30vh;
-  float: right;
-  text-align: center;
-  vertical-align: middle;
-  line-height: 30vh;
-  text-anchor: middle;
-  background-color: black;
-  background-image: url("media/FacebookBanner.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  border-radius: 25px;
-}
-.instagram{
-  width: 48%;
-  height: 30vh;
-  float: right;
-  text-align: center;
-  text-anchor: middle;
-  line-height: 30vh;
-  vertical-align: middle;
-  background-color: black;
-  background-image: url("media/InstagramBanner.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  border-radius: 25px;
-}
-.of{
-  width: 48%;
-  height: 30vh;
-  float: left;
-  text-align: center;
-  text-anchor: middle;
-  line-height: 30vh;
-  vertical-align: center;
-  background-color: black;
-  background-image: url("media/of.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  border-radius: 25px;
-}
-.telegram{
-  width: 48%;
-  height: 30vh;
-  float: right;
-  text-align: center;
-  text-anchor: middle;
-  line-height: 30vh;
-  vertical-align: center;
-  background-color: black;
-  background-image: url("media/TelegramBanner.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  border-radius: 25px;
+.link:hover{
+  border-style: groove;
+  border-color: goldenrod;
+  font-size: 6vh;
 }
