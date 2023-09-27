@@ -1,0 +1,40 @@
+html{
+  background-color: black;
+}
+.img{
+  text-align: center;
+}
+.pfp{
+width: 10%;
+border-radius: 50%;
+}
+.companions{
+  width: 4%;
+}
+.links{
+  text-align: center;
+}
+.container{
+  height: 7vh;
+}
+.link{
+  text-decoration: none;
+  font-size: large;
+  color: mintcream;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 1.5vh 30%;
+  border-style: ridge;
+  border-radius: 200px;
+  border-color: steelblue;
+}
+.link:hover{
+  font-size:x-large;
+  border-color: goldenrod;
+  border-style: groove;
+  transition: 1s;
+}
+.bio{
+  color: white;
+  text-align: justify;
+  text-justify: inter-word;
+}
