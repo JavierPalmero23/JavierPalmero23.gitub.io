@@ -34,6 +34,11 @@ html{
   transition: 1s;
 }
 .bio{
+  position: absolute;
+  bottom:3%;
+  left: 5%;
+  right: 5%;
+  width: 90%;
   color: white;
   text-align: center;
 }
