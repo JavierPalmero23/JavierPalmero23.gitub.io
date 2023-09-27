@@ -1,28 +1,36 @@
 html{
   background-color: black;
 }
-#terminal-body{
-  position: relative;
+.pfp{
+  width: 15%;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
-#link{
-  text-decoration: none;
+.links{
+  text-align: center;
+}
+.container{
+  height: 10vh;
 }
 .link{
-  position: relative;
-  left: 20%;
-  text-align: center;
-  width: 60%;
-  padding: 1%;
-  border:1vh;
-  border-radius: 25px;
-  border-style: inset;
-  border-color: steelblue;
-  font-size: 5vh;
-  font-family: 'Times New Roman', Times, serif;
+  text-decoration: none;
+  font-size: large;
   color: mintcream;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 1.5vh 30%;
+  border-style: ridge;
+  border-radius: 200px;
+  border-color: steelblue;
 }
 .link:hover{
-  border-style: groove;
+  font-size:x-large;
   border-color: goldenrod;
-  font-size: 6vh;
+  border-style: groove;
+  transition: 1s;
+}
+.bio{
+  text-align: justify;
+  text-justify: inter-word;
 }
