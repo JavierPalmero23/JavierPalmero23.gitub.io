@@ -16,6 +16,7 @@ border-radius: 50%;
 }
 .container{
   height: 10vh;
+  text-align: center;
 }
 .link{
   text-decoration: none;
