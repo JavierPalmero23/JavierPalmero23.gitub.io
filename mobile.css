@@ -15,24 +15,25 @@ html{
   text-align: center;
 }
 .container{
-  height: 10vh;
+  height: 9vh;
 }
 .link{
   text-decoration: none;
-  font-size:x-large;
+  font-size:larger;
   color: mintcream;
   font-family: 'Times New Roman', Times, serif;
-  padding: 1% 30%;
+  padding: 2% 30%;
   border-style: ridge;
   border-radius: 200px;
   border-color:beige;
 }
 .link:hover{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #020062;
   background-color: #5978a7;
   border-color: white;
   border-style: groove;
-  transition: 1.5s;
+  transition: 2s;
 }
 .bio{
   position: absolute;
