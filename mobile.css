@@ -19,19 +19,20 @@ html{
 }
 .link{
   text-decoration: none;
-  font-size: large;
+  font-size:x-large;
   color: mintcream;
   font-family: 'Times New Roman', Times, serif;
-  padding: 1vh 30%;
+  padding: 1% 30%;
   border-style: ridge;
   border-radius: 200px;
-  border-color: slategrey;
+  border-color:beige;
 }
 .link:hover{
-  font-size:x-large;
-  border-color: goldenrod;
+  color: #020062;
+  background-color: #5978a7;
+  border-color: white;
   border-style: groove;
-  transition: 1s;
+  transition: 1.5s;
 }
 .bio{
   position: absolute;

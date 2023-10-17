@@ -15,21 +15,26 @@ html{
   text-align: center;
 }
 .container{
-  height: 8vh;
+  height: 9vh;
 }
 .link{
   text-decoration: none;
   font-size: x-large;
   color: mintcream;
   font-family: 'Times New Roman', Times, serif;
-  padding: 1.5vh 5%;
+  padding: 1% 5%;
   border-style: ridge;
   border-radius: 200px;
-  border-color: steelblue;
+  border-color: beige;
 }
 .link:hover{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: .75% 5%;
+  font-weight: bold;
   font-size:xx-large;
-  border-color: goldenrod;
+  color: #020062;
+  background-color: #5978a7;
+  border-color: white;
   border-style: groove;
   transition: 1s;
 }
